@@ -25,6 +25,7 @@
     font-style: italic;
 }
 
+
 @media screen and (max-width: 435px) {
     .InfoSection{
         flex-direction: column;
@@ -58,7 +59,7 @@
     }
     
     .Image {
-        height: 40vh;
+        height: 450px;
         width: 100vw;
     }
 
