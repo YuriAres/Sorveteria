@@ -1,0 +1,147 @@
+.InfoSection {
+    display: flex;
+}
+
+.Card, .CardReverse{
+    display: flex;
+}
+
+.TextCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Text h3{
+    font-style: italic;
+}
+
+@media screen and (max-width: 435px) {
+    .InfoSection{
+        flex-direction: column;
+    }
+    
+    .Image {
+        height: 40vh;
+        width: 100vw;
+    }
+
+    .Card, .CardReverse{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TextCard{
+        padding: 80px 0;
+        gap: 25px;
+        width: 90%;
+    }
+
+    .Text{
+        gap: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 436px) and (max-width: 825px) {
+    .InfoSection{
+        flex-direction: column;
+    }
+    
+    .Image {
+        height: 40vh;
+        width: 100vw;
+    }
+
+    .Card, .CardReverse{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TextCard{
+        padding: 80px 0;
+        gap: 25px;
+        width: 90%;
+    }
+
+    .Text{
+        gap: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 826px) and (max-width: 1025px) {
+    .InfoSection{
+        flex-direction: column;
+    }
+    
+    .Image {
+        height: 450px;
+        width: 50%;
+    }
+
+    .Card, .CardReverse{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .CardReverse{
+        flex-direction: row-reverse;
+    }
+
+    .TextCard{
+        padding: 80px 0;
+        gap: 25px;
+        width: 50%;
+        height: 450px;
+    }
+
+    .Text{
+        gap: 20px;
+        line-height: 30px;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1026px) { 
+    .InfoSection{
+        flex-direction: column;
+    }
+    
+    .Image {
+        height: 450px;
+        width: 50%;
+    }
+
+    .Card, .CardReverse{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .CardReverse{
+        flex-direction: row-reverse;
+    }
+
+    .TextCard{
+        padding: 80px 0;
+        gap: 25px;
+        width: 50%;
+        height: 450px;
+
+    }
+
+    .Text{
+        gap: 20px;
+        line-height: 30px;
+        width: 90%;
+    }
+}

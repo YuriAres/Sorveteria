@@ -1,0 +1,110 @@
+.InfoSection {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.InfoView{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Titulo{
+    display: flex;
+    flex-direction: column;
+}
+
+.Titulo h3{
+    font-style: italic;
+}
+
+.Text{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 435px) {
+    .InfoView{
+        width: 90%;
+        margin: 80px 0;
+        gap: 30px
+    }
+
+    .Titulo {
+        font-size: 21px;
+        gap: 10px
+    }
+
+    .Titulo h3{
+        font-size: 20px
+    }
+    
+    .Text {
+        gap: 20px
+    }
+}
+
+@media screen and (min-width: 436px) and (max-width: 825px) {
+    .InfoView{
+        width: 90%;
+        margin: 80px 0;
+        gap: 30px
+    }
+
+    .Titulo {
+        font-size: 21px;
+        gap: 10px
+    }
+
+    .Titulo h3{
+        font-size: 20px
+    }
+    
+    .Text {
+        gap: 20px
+    }
+}
+
+@media screen and (min-width: 826px) and (max-width: 1025px) {
+    .InfoView{
+        width: 90%;
+        margin: 80px 0;
+        gap: 30px
+    }
+
+    .Titulo {
+        font-size: 21px;
+        gap: 10px
+    }
+
+    .Titulo h3{
+        font-size: 20px
+    }
+    
+    .Text {
+        gap: 20px
+    }
+
+}
+
+@media screen and (min-width: 1026px) { 
+    .InfoView{
+        width: 90%;
+        margin: 80px 0;
+        gap: 30px
+    }
+
+    .Titulo {
+        font-size: 21px;
+        gap: 10px
+    }
+
+    .Titulo h3{
+        font-size: 20px
+    }
+    
+    .Text {
+        gap: 20px
+    }
+}

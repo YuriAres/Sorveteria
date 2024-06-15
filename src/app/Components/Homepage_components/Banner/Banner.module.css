@@ -1,0 +1,29 @@
+.Banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9DB79;
+    color: white;
+    background-image: url('../../../../../public/banner-home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Titulo {
+    font-size: 50px;
+    width: 80%;
+    text-align: center;
+    text-shadow: 3px 5px 4px rgb(42, 42, 42);
+}
+
+@media screen and (max-width: 1025px) {
+    .Banner{
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 1026px) { 
+    .Banner{
+        height: 100vh;
+    }
+}
